@@ -1,0 +1,30 @@
+.gameBtn {
+    color : blue;
+    border : 1px dotted black;
+    background-color: lightgrey;
+    border-radius: 5px;
+    font-style: italic;
+    font-weight: bold;
+}
+        
+.tableClass {
+    border-style: dashed;
+    border-bottom-width: thick;
+    border-width: 5px;
+    border-color: black;
+    cellPadding: 2;
+}
+.rowClass {
+    border: 2px, solid, blue;
+}
+.untouchedTd {
+    background-color: bisque;
+}
+
+.unClickedTd {
+    background-color: red;
+}
+
+.clickedTd {
+    background-color: gray;
+}

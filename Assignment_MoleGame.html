@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Whack-A-Mole Game</title>
+    <link rel="stylesheet" type="text/css" href="css/moleGame.css" />
+    <script src="scripts/jquery-2.1.4.min.js"></script>
+    <script src="scripts/moleGame.js"></script>
+</head>
+<body>
+   <div id='helpDoc' align='left'>
+      <a href="ReadMe.html" onclick="window.open(this.href, 'readMe: Game Help',
+'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;">Read Me</a>
+   </div>
+   
+    <div id="userInput" align="center">
+       <label for="">Select Game Level:</label>
+        <select name="gameLevel" id="gameLevel">
+            <option id="op0" value="selectOption">--Select a Level--</option>
+            <option id="op1" value="Level01">Level 1 (4x4 grid)</option>
+            <option id="op2" value="Level02">Level 2 (5x5 grid)</option>
+            <option id="op3" value="Level03">Level 3 (6x6 grid)</option>
+            <option id="op4" value="Advance">Advance</option>
+        </select>
+        <input type="button" id="btnSelectLevel" value="Select"></input>
+        <br /><br/>
+        <input type="button" id="playStartbtn" value="Start >" class="gameBtn" style="display: none"></input>
+        <input type="button" id="resetbtn" value="Reset" class="gameBtn" style="display: none"></input>
+    </div>
+    <hr width="50%" size="8" align="center" color="grey"/><br/>
+    <div id="gamePanel" align="center"></div> 
+</body>
+</html>
